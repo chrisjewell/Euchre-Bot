@@ -21,7 +21,7 @@ class Logger:
 		self.the_log.write(info.replace('\n', '\r\n'))
 		self.the_log.write('\r\n')
 		
-out = Logger("log.txt")
+out = Logger("log.csv")
 
 class Info:
 	def __init__(self):
