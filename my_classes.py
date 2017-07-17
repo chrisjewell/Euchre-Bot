@@ -154,10 +154,10 @@ class Euchre():
 	def endGame(self): # ends the game
 		if game.scoreA >= 10:
 			print "Players %s and %s have won!" % (self.playerA1.name, self.playerA2.name)
-			out.log("EndGame,Winners,%s,%s" % (self.playerA1.name, self.playerA2.name))
+			out.log("EndGame,Winners,Team A,%s,%s" % (self.playerA1.name, self.playerA2.name))
 		elif game.scoreB >= 10:
 			print "Players %s and %s have won!" % (self.playerB1.name, self.playerB2.name)
-			out.log("EndGame,Winners,%s,%s" % (self.playerB1.name, self.playerB2.name))
+			out.log("EndGame,Winners,Team B,%s,%s" % (self.playerB1.name, self.playerB2.name))
 		print "With a score of %d to %d." % (game.scoreA, game.scoreB)
 		out.log("EndGame,Score,%d,%d" % (game.scoreA, game.scoreB))
 
