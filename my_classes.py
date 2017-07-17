@@ -118,7 +118,7 @@ class Euchre():
 			c_tricks = game.tricksB
 			c_team = "B"
 			
-		out.log("Scoring,Caller,%s,Tricks,A,%d,B,%d,C,%d" % (c_team, game.tricksA, game.tricksB, c_tricks))
+		out.log("EndTrick,Score,Caller,%s,Tricks,A,%d,B,%d,C,%d" % (c_team, game.tricksA, game.tricksB, c_tricks))
 			
 		if c_tricks == 0:
 			if c_team != "A":
