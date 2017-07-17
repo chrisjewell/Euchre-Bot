@@ -70,13 +70,13 @@ class Euchre():
 		for x in range(5):
 			winner = self.playTrick(winner)
 			keys = game.center.keys()
-			txt = "End of trick:\n\t%s, %s, %s, %s\n\tWinner:%s\n" % (keys[0], keys[1], keys[2], keys[3],winner.name)
+			txt = "EndTrick,%s,%s,%s,%s,Winner,%s" % (keys[0], keys[1], keys[2], keys[3],winner.name)
 			out.log(txt)
 			for p in self.players:
 				p.updateInfo(winner)
 				
 		self.allotScore()
-		out.log("End of round:\n\tTrump: %s\n\tCaller: %s\n\tScores A: %d B: %d\n" % \
+		out.log("EndRound,Trump,%s,Caller,%s,Score A,%d,Score B,%d" % \
 			(game.trump, game.caller.name, game.scoreA, game.scoreB))
 		
 
@@ -118,7 +118,7 @@ class Euchre():
 			c_tricks = game.tricksB
 			c_team = "B"
 			
-		out.log("\t\tCaller: %s  Tricks: A; %d B; %d C: %d" % (c_team, game.tricksA, game.tricksB, c_tricks))
+		out.log("Scoring,Caller,%s,Tricks,A,%d,B,%d,C,%d" % (c_team, game.tricksA, game.tricksB, c_tricks))
 			
 		if c_tricks == 0:
 			if c_team != "A":
@@ -154,12 +154,12 @@ class Euchre():
 	def endGame(self): # ends the game
 		if game.scoreA >= 10:
 			print "Players %s and %s have won!" % (self.playerA1.name, self.playerA2.name)
-			out.log("Players %s and %s have won!" % (self.playerA1.name, self.playerA2.name))
+			out.log("EndGame,Winners,%s,%s" % (self.playerA1.name, self.playerA2.name))
 		elif game.scoreB >= 10:
 			print "Players %s and %s have won!" % (self.playerB1.name, self.playerB2.name)
-			out.log("Players %s and %s have won!" % (self.playerB1.name, self.playerB2.name))
+			out.log("EndGame,Winners,%s,%s" % (self.playerB1.name, self.playerB2.name))
 		print "With a score of %d to %d." % (game.scoreA, game.scoreB)
-		out.log("With a score of %d to %d." % (game.scoreA, game.scoreB))
+		out.log("EndGame,Score,%d,%d" % (game.scoreA, game.scoreB))
 
 		
 	def getWinningCard(self):
