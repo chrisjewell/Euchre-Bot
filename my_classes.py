@@ -160,6 +160,7 @@ class Euchre():
 			out.log("Players %s and %s have won!" % (self.playerB1.name, self.playerB2.name))
 		print "With a score of %d to %d." % (game.scoreA, game.scoreB)
 		out.log("With a score of %d to %d." % (game.scoreA, game.scoreB))
+
 		
 	def getWinningCard(self):
 		return sorted(game.center, key=curCardVal, reverse=True)[0]

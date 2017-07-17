@@ -15,7 +15,7 @@ else: # white characters
 
 class Logger:
 	def __init__(self, logging_file):
-		self.the_log = codecs.open(logging_file, encoding='utf-8', mode='w')
+		self.the_log = codecs.open(logging_file, encoding='utf-8', mode='a')
 		
 	def log(self, info):
 		self.the_log.write(info.replace('\n', '\r\n'))
