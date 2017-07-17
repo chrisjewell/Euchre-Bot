@@ -67,10 +67,12 @@ class Euchre():
 		
 		# play 5 tricks
 		winner = self.players[(self.players.index(game.dealer) + 1)%4]
+		trickCount = 0
 		for x in range(5):
+			trickCount = trickCount + 1
 			winner = self.playTrick(winner)
 			keys = game.center.keys()
-			txt = "EndTrick,%s,%s,%s,%s,Winner,%s" % (keys[0], keys[1], keys[2], keys[3],winner.name)
+			txt = "EndTrick,%s,%s,%s,%s,%s,Winner,%s" % (str(trickCount), keys[0], keys[1], keys[2], keys[3],winner.name)
 			out.log(txt)
 			for p in self.players:
 				p.updateInfo(winner)
