@@ -84,11 +84,13 @@ class Euchre():
 
 	def playTrick(self, leader):
 		game.resetTrick()
+		player_order = 0
 		
 		# get the start card from leader
 		# assume cards played are legal
 		played = leader.playCard()
 		game.center[played] = leader
+		out.log("Card Played,%s,%s" % (played, 1))
 		
 		# handle the lead/left bower problem
 		if played.num == 11 and played.suit == offSuit(game.trump):
@@ -98,9 +100,12 @@ class Euchre():
 		
 		# play the trick
 		leader_index = self.players.index(leader)
+		player_order = 1
 		for x in range(1, 4):
+			player_order = player_order + 1
 			played = self.players[(leader_index+x)%4].playCard()
 			game.center[played] = self.players[(leader_index+x)%4]
+			out.log("Card Played,%s,%s" % (played, player_order))
 		
 		# return the winner of the trick
 		win_card = self.getWinningCard()

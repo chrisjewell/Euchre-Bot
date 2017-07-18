@@ -169,3 +169,545 @@ EndTrick,Score,Caller,B,Tricks,A,3,B,2,C,2
 EndRound,Trump,S,Caller,Sandy,Score A,11,Score B,6
 EndGame,Winners,Team A,Alex,Brian
 EndGame,Score,11,6
+Card Played,Ace|H,1
+Card Played,Jack|S,2
+Card Played,9|H,3
+EndTrick,1,10|H,Ace|H,9|H,Jack|S,Winner,Sandy
+Card Played,Queen|C,1
+Card Played,10|C,2
+Card Played,Jack|C,3
+EndTrick,2,10|C,King|S,Queen|C,Jack|C,Winner,Brian
+Card Played,Ace|D,1
+Card Played,10|D,2
+Card Played,King|C,3
+EndTrick,3,Ace|D,10|D,King|C,9|D,Winner,Sandy
+Card Played,Queen|C,1
+Card Played,King|H,2
+Card Played,9|C,3
+EndTrick,4,Ace|S,Queen|C,King|H,9|C,Winner,Sandy
+Card Played,10|S,1
+Card Played,Queen|H,2
+Card Played,King|D,3
+EndTrick,5,Queen|H,King|D,10|S,Queen|D,Winner,Alex
+EndTrick,Score,Caller,B,Tricks,A,2,B,3,C,3
+EndRound,Trump,S,Caller,Sandy,Score A,0,Score B,1
+Card Played,10|D,1
+Card Played,Queen|C,2
+Card Played,Queen|D,3
+EndTrick,1,10|D,King|D,Queen|C,Queen|D,Winner,Brian
+Card Played,King|C,1
+Card Played,Queen|C,2
+Card Played,10|C,3
+EndTrick,2,King|C,10|C,Queen|C,Ace|C,Winner,Brian
+Card Played,Queen|S,1
+Card Played,Jack|H,2
+Card Played,Ace|D,3
+EndTrick,3,Ace|S,Ace|D,Jack|H,Queen|S,Winner,Alex
+Card Played,Jack|D,1
+Card Played,King|H,2
+Card Played,Ace|H,3
+EndTrick,4,Jack|D,Ace|H,Jack|H,King|H,Winner,Katrina
+Card Played,9|S,1
+Card Played,10|H,2
+Card Played,9|H,3
+EndTrick,5,10|H,9|S,9|H,9|C,Winner,Katrina
+EndTrick,Score,Caller,B,Tricks,A,3,B,2,C,2
+EndRound,Trump,D,Caller,Katrina,Score A,2,Score B,1
+Card Played,Ace|C,1
+Card Played,Queen|D,2
+Card Played,Queen|S,3
+EndTrick,1,King|S,Ace|C,Queen|D,Queen|S,Winner,Sandy
+Card Played,King|D,1
+Card Played,Jack|H,2
+Card Played,9|H,3
+EndTrick,2,King|D,9|H,Jack|H,9|C,Winner,Katrina
+Card Played,Ace|D,1
+Card Played,9|D,2
+Card Played,10|S,3
+EndTrick,3,Ace|D,Jack|D,9|D,10|S,Winner,Katrina
+Card Played,10|H,1
+Card Played,Jack|C,2
+Card Played,Ace|C,3
+EndTrick,4,10|H,King|H,Ace|C,Jack|C,Winner,Katrina
+Card Played,Ace|S,1
+Card Played,Jack|S,2
+Card Played,Ace|C,3
+EndTrick,5,Ace|S,Queen|H,Jack|S,Ace|C,Winner,Katrina
+EndTrick,Score,Caller,B,Tricks,A,0,B,5,C,5
+EndRound,Trump,H,Caller,Sandy,Score A,2,Score B,3
+Card Played,9|S,1
+Card Played,Jack|S,2
+Card Played,Ace|D,3
+EndTrick,1,Ace|S,9|S,Jack|S,Ace|D,Winner,Alex
+Card Played,King|S,1
+Card Played,10|H,2
+Card Played,10|C,3
+EndTrick,2,Ace|S,10|H,King|S,10|C,Winner,Brian
+Card Played,Queen|C,1
+Card Played,Queen|D,2
+Card Played,10|D,3
+EndTrick,3,Queen|C,9|D,Queen|D,10|D,Winner,Alex
+Card Played,Jack|D,1
+Card Played,Ace|H,2
+Card Played,Queen|H,3
+EndTrick,4,Ace|S,Jack|D,Ace|H,Queen|H,Winner,Katrina
+Card Played,Ace|C,1
+Card Played,Jack|C,2
+Card Played,Jack|H,3
+EndTrick,5,Jack|H,Ace|C,9|C,Jack|C,Winner,Alex
+EndTrick,Score,Caller,A,Tricks,A,4,B,1,C,4
+EndRound,Trump,H,Caller,Brian,Score A,3,Score B,3
+Card Played,Ace|H,1
+Card Played,Ace|C,2
+Card Played,Queen|H,3
+EndTrick,1,Queen|H,Ace|H,Jack|H,Ace|C,Winner,Sandy
+Card Played,King|C,1
+Card Played,10|C,2
+Card Played,Jack|S,3
+EndTrick,2,King|C,Jack|S,10|C,9|C,Winner,Brian
+Card Played,9|D,1
+Card Played,Ace|D,2
+Card Played,King|H,3
+EndTrick,3,Ace|D,King|D,9|D,King|H,Winner,Alex
+Card Played,King|S,1
+Card Played,Jack|D,2
+Card Played,9|S,3
+EndTrick,4,Jack|D,King|S,9|S,Queen|S,Winner,Katrina
+Card Played,Queen|D,1
+Card Played,Jack|C,2
+Card Played,Queen|S,3
+EndTrick,5,Queen|S,9|H,Queen|D,Jack|C,Winner,Sandy
+EndTrick,Score,Caller,B,Tricks,A,2,B,3,C,3
+EndRound,Trump,C,Caller,Katrina,Score A,3,Score B,4
+Card Played,9|H,1
+Card Played,King|H,2
+Card Played,Ace|D,3
+EndTrick,1,10|H,Ace|D,9|H,King|H,Winner,Alex
+Card Played,9|C,1
+Card Played,Jack|H,2
+Card Played,Queen|C,3
+EndTrick,2,Queen|C,Jack|H,9|C,Jack|C,Winner,Alex
+Card Played,King|D,1
+Card Played,Queen|S,2
+Card Played,10|D,3
+EndTrick,3,10|D,King|D,Queen|S,Jack|C,Winner,Alex
+Card Played,Queen|D,1
+Card Played,King|S,2
+Card Played,Ace|H,3
+EndTrick,4,Ace|H,King|S,Queen|D,Jack|C,Winner,Alex
+Card Played,10|S,1
+Card Played,Queen|H,2
+Card Played,Ace|S,3
+EndTrick,5,Ace|S,Queen|H,10|S,Jack|C,Winner,Alex
+EndTrick,Score,Caller,A,Tricks,A,5,B,0,C,5
+EndRound,Trump,S,Caller,Brian,Score A,5,Score B,4
+Card Played,10|H,1
+Card Played,Queen|D,2
+Card Played,Ace|C,3
+EndTrick,1,10|H,King|D,Ace|C,Queen|D,Winner,Sandy
+Card Played,Ace|S,1
+Card Played,9|C,2
+Card Played,Queen|C,3
+EndTrick,2,King|C,Ace|S,Queen|C,9|C,Winner,Alex
+Card Played,King|S,1
+Card Played,10|C,2
+Card Played,Ace|H,3
+EndTrick,3,10|C,Ace|H,King|S,Jack|H,Winner,Katrina
+Card Played,Queen|S,1
+Card Played,9|S,2
+Card Played,10|D,3
+EndTrick,4,9|S,10|D,10|S,Queen|S,Winner,Brian
+Card Played,Queen|H,1
+Card Played,Jack|H,2
+Card Played,Jack|D,3
+EndTrick,5,Queen|H,Jack|S,Jack|H,Jack|D,Winner,Brian
+EndTrick,Score,Caller,B,Tricks,A,3,B,2,C,2
+EndRound,Trump,S,Caller,Sandy,Score A,7,Score B,4
+Card Played,9|H,1
+Card Played,10|H,2
+Card Played,King|S,3
+EndTrick,1,10|H,King|S,9|H,King|H,Winner,Sandy
+Card Played,Jack|S,1
+Card Played,10|D,2
+Card Played,Jack|D,3
+EndTrick,2,10|D,Jack|S,9|D,Jack|D,Winner,Alex
+Card Played,King|D,1
+Card Played,10|S,2
+Card Played,Queen|D,3
+EndTrick,3,King|D,Queen|D,King|H,10|S,Winner,Brian
+Card Played,Ace|C,1
+Card Played,Queen|C,2
+Card Played,Ace|S,3
+EndTrick,4,Ace|S,Queen|C,Ace|C,Jack|C,Winner,Brian
+Card Played,Queen|S,1
+Card Played,10|C,2
+Card Played,9|S,3
+EndTrick,5,9|S,10|C,9|C,Queen|S,Winner,Sandy
+EndTrick,Score,Caller,A,Tricks,A,3,B,2,C,3
+EndRound,Trump,S,Caller,Alex,Score A,8,Score B,4
+Card Played,9|S,1
+Card Played,Ace|S,2
+Card Played,King|S,3
+EndTrick,1,Ace|S,9|S,King|S,Queen|S,Winner,Sandy
+Card Played,9|C,1
+Card Played,10|D,2
+Card Played,Queen|C,3
+EndTrick,2,King|C,10|D,Queen|C,9|C,Winner,Sandy
+Card Played,9|D,1
+Card Played,Jack|H,2
+Card Played,Ace|C,3
+EndTrick,3,Jack|H,10|C,9|D,Ace|C,Winner,Brian
+Card Played,Ace|D,1
+Card Played,Ace|H,2
+Card Played,10|H,3
+EndTrick,4,Ace|D,10|H,King|D,Ace|H,Winner,Sandy
+Card Played,Jack|S,1
+Card Played,Jack|D,2
+Card Played,10|S,3
+EndTrick,5,Jack|D,Jack|S,King|H,10|S,Winner,Alex
+EndTrick,Score,Caller,A,Tricks,A,2,B,3,C,2
+EndRound,Trump,S,Caller,Brian,Score A,8,Score B,6
+Card Played,King|C,1
+Card Played,9|C,2
+Card Played,Queen|C,3
+EndTrick,1,King|C,10|C,Queen|C,9|C,Winner,Sandy
+Card Played,9|H,1
+Card Played,10|D,2
+Card Played,10|S,3
+EndTrick,2,10|H,10|D,9|H,10|S,Winner,Katrina
+Card Played,Queen|S,1
+Card Played,King|H,2
+Card Played,King|S,3
+EndTrick,3,Jack|S,King|S,King|H,Queen|S,Winner,Alex
+Card Played,9|D,1
+Card Played,Jack|H,2
+Card Played,Ace|H,3
+EndTrick,4,Ace|D,Jack|H,Ace|H,9|D,Winner,Brian
+Card Played,Queen|H,1
+Card Played,Jack|D,2
+Card Played,King|D,3
+EndTrick,5,9|S,King|D,Jack|D,Queen|H,Winner,Alex
+EndTrick,Score,Caller,A,Tricks,A,3,B,2,C,3
+EndRound,Trump,D,Caller,Brian,Score A,9,Score B,6
+Card Played,King|H,1
+Card Played,King|C,2
+Card Played,9|H,3
+EndTrick,1,King|C,Ace|H,9|H,King|H,Winner,Sandy
+Card Played,Jack|D,1
+Card Played,Queen|S,2
+Card Played,Ace|S,3
+EndTrick,2,Ace|S,9|S,Queen|S,Jack|D,Winner,Brian
+Card Played,Jack|C,1
+Card Played,10|C,2
+Card Played,Ace|C,3
+EndTrick,3,10|C,King|S,Ace|C,Jack|C,Winner,Sandy
+Card Played,10|H,1
+Card Played,Queen|D,2
+Card Played,Queen|C,3
+EndTrick,4,10|H,Queen|C,Queen|D,9|C,Winner,Brian
+Card Played,Jack|S,1
+Card Played,Queen|H,2
+Card Played,Jack|H,3
+EndTrick,5,10|D,Jack|S,Jack|H,Queen|H,Winner,Sandy
+EndTrick,Score,Caller,B,Tricks,A,2,B,3,C,3
+EndRound,Trump,S,Caller,Sandy,Score A,9,Score B,7
+Card Played,Queen|S,1
+Card Played,10|D,2
+Card Played,10|S,3
+EndTrick,1,Ace|S,10|D,10|S,Queen|S,Winner,Alex
+Card Played,Queen|D,1
+Card Played,King|H,2
+Card Played,King|S,3
+EndTrick,2,Ace|S,King|S,King|H,Queen|D,Winner,Alex
+Card Played,Queen|H,1
+Card Played,Jack|C,2
+Card Played,9|S,3
+EndTrick,3,Ace|S,Queen|H,9|S,Jack|C,Winner,Brian
+Card Played,9|H,1
+Card Played,9|D,2
+Card Played,Ace|D,3
+EndTrick,4,Ace|D,9|D,9|H,Jack|H,Winner,Brian
+Card Played,Queen|C,1
+Card Played,Ace|C,2
+Card Played,10|C,3
+EndTrick,5,10|H,10|C,Queen|C,Ace|C,Winner,Alex
+EndTrick,Score,Caller,A,Tricks,A,5,B,0,C,5
+EndRound,Trump,C,Caller,Brian,Score A,11,Score B,7
+EndGame,Winners,Team A,Alex,Brian
+EndGame,Score,11,7
+Card Played,10|C,1
+Card Played,9|C,2
+Card Played,King|D,3
+Card Played,Ace|H,4
+EndTrick,1,King|D,10|C,Ace|H,9|C,Winner,Alex
+Card Played,Ace|H,1
+Card Played,Ace|S,2
+Card Played,Queen|H,3
+Card Played,King|H,4
+EndTrick,2,Ace|S,Queen|H,Ace|H,King|H,Winner,Alex
+Card Played,Ace|H,1
+Card Played,King|S,2
+Card Played,Ace|C,3
+Card Played,9|H,4
+EndTrick,3,Ace|H,King|S,9|H,Ace|C,Winner,Alex
+Card Played,Ace|H,1
+Card Played,King|C,2
+Card Played,10|S,3
+Card Played,Queen|S,4
+EndTrick,4,King|C,Ace|H,10|S,Queen|S,Winner,Alex
+Card Played,Ace|H,1
+Card Played,Ace|D,2
+Card Played,Jack|H,3
+Card Played,Jack|S,4
+EndTrick,5,Ace|D,Ace|H,Jack|H,Jack|S,Winner,Brian
+EndTrick,Score,Caller,A,Tricks,A,5,B,0,C,5
+EndRound,Trump,H,Caller,Brian,Score A,2,Score B,0
+Card Played,Jack|D,1
+Card Played,9|D,2
+Card Played,King|D,3
+Card Played,Ace|S,4
+EndTrick,1,Ace|S,Jack|D,King|D,9|D,Winner,Alex
+Card Played,King|D,1
+Card Played,9|S,2
+Card Played,10|S,3
+Card Played,Ace|D,4
+EndTrick,2,Ace|D,9|S,King|D,10|S,Winner,Sandy
+Card Played,Queen|C,1
+Card Played,Jack|S,2
+Card Played,King|C,3
+Card Played,Ace|C,4
+EndTrick,3,King|C,Jack|S,Queen|C,Ace|C,Winner,Alex
+Card Played,King|D,1
+Card Played,Queen|S,2
+Card Played,Jack|C,3
+Card Played,10|C,4
+EndTrick,4,King|D,Jack|C,10|C,Queen|S,Winner,Brian
+Card Played,Queen|H,1
+Card Played,King|S,2
+Card Played,Queen|D,3
+Card Played,Jack|H,4
+EndTrick,5,Queen|H,King|S,Jack|H,Queen|D,Winner,Brian
+EndTrick,Score,Caller,B,Tricks,A,4,B,1,C,1
+EndRound,Trump,C,Caller,Sandy,Score A,4,Score B,0
+Card Played,Jack|S,1
+Card Played,10|S,2
+Card Played,Queen|S,3
+Card Played,9|C,4
+EndTrick,1,Jack|S,9|C,10|S,Queen|S,Winner,Sandy
+Card Played,9|S,1
+Card Played,Ace|D,2
+Card Played,Ace|S,3
+Card Played,Queen|D,4
+EndTrick,2,Ace|D,9|S,Ace|S,Queen|D,Winner,Katrina
+Card Played,King|C,1
+Card Played,Ace|C,2
+Card Played,Queen|C,3
+Card Played,10|C,4
+EndTrick,3,King|C,10|C,Queen|C,Ace|C,Winner,Brian
+Card Played,Jack|H,1
+Card Played,Queen|H,2
+Card Played,9|H,3
+Card Played,King|D,4
+EndTrick,4,Queen|H,King|D,9|H,Jack|H,Winner,Sandy
+Card Played,9|D,1
+Card Played,Ace|D,2
+Card Played,Jack|C,3
+Card Played,King|H,4
+EndTrick,5,Ace|D,9|D,King|H,Jack|C,Winner,Katrina
+EndTrick,Score,Caller,B,Tricks,A,1,B,4,C,4
+EndRound,Trump,C,Caller,Katrina,Score A,4,Score B,1
+Card Played,Ace|C,1
+Card Played,King|C,2
+Card Played,9|C,3
+Card Played,Jack|S,4
+EndTrick,1,King|C,Jack|S,Ace|C,9|C,Winner,Sandy
+Card Played,9|D,1
+Card Played,10|H,2
+Card Played,Queen|C,3
+Card Played,King|D,4
+EndTrick,2,10|H,Queen|C,King|D,9|D,Winner,Katrina
+Card Played,Jack|H,1
+Card Played,Ace|H,2
+Card Played,9|H,3
+Card Played,Queen|H,4
+EndTrick,3,Queen|H,Ace|H,9|H,Jack|H,Winner,Brian
+Card Played,King|S,1
+Card Played,9|S,2
+Card Played,Ace|C,3
+Card Played,Ace|S,4
+EndTrick,4,Ace|S,9|S,King|S,Ace|C,Winner,Alex
+Card Played,Ace|C,1
+Card Played,10|C,2
+Card Played,Jack|D,3
+Card Played,Jack|C,4
+EndTrick,5,Jack|D,10|C,Ace|C,Jack|C,Winner,Sandy
+EndTrick,Score,Caller,A,Tricks,A,2,B,3,C,2
+EndRound,Trump,C,Caller,Brian,Score A,4,Score B,3
+Card Played,9|H,1
+Card Played,Ace|S,2
+Card Played,King|H,3
+Card Played,Ace|H,4
+EndTrick,1,Ace|S,Ace|H,9|H,King|H,Winner,Alex
+Card Played,Queen|C,1
+Card Played,10|C,2
+Card Played,Ace|C,3
+Card Played,King|C,4
+EndTrick,2,King|C,10|C,Queen|C,Ace|C,Winner,Brian
+Card Played,9|D,1
+Card Played,Ace|D,2
+Card Played,Queen|C,3
+Card Played,Jack|C,4
+EndTrick,3,Ace|D,Queen|C,9|D,Jack|C,Winner,Katrina
+Card Played,King|S,1
+Card Played,10|D,2
+Card Played,10|S,3
+Card Played,Queen|S,4
+EndTrick,4,10|D,King|S,10|S,Queen|S,Winner,Katrina
+Card Played,Jack|H,1
+Card Played,9|C,2
+Card Played,King|D,3
+Card Played,10|H,4
+EndTrick,5,10|H,King|D,Jack|H,9|C,Winner,Brian
+EndTrick,Score,Caller,A,Tricks,A,3,B,2,C,3
+EndRound,Trump,C,Caller,Brian,Score A,5,Score B,3
+Card Played,King|S,1
+Card Played,Queen|C,2
+Card Played,King|H,3
+Card Played,Ace|H,4
+EndTrick,1,Ace|H,King|S,Queen|C,King|H,Winner,Brian
+Card Played,King|D,1
+Card Played,Queen|D,2
+Card Played,Jack|S,3
+Card Played,Ace|D,4
+EndTrick,2,Ace|D,King|D,Jack|S,Queen|D,Winner,Katrina
+Card Played,10|C,1
+Card Played,Queen|S,2
+Card Played,Ace|C,3
+Card Played,9|C,4
+EndTrick,3,10|C,Ace|C,9|C,Queen|S,Winner,Sandy
+Card Played,Jack|H,1
+Card Played,Jack|C,2
+Card Played,Queen|H,3
+Card Played,9|H,4
+EndTrick,4,Queen|H,9|H,Jack|H,Jack|C,Winner,Sandy
+Card Played,9|D,1
+Card Played,King|H,2
+Card Played,Jack|D,3
+Card Played,10|D,4
+EndTrick,5,Jack|D,9|D,King|H,10|D,Winner,Katrina
+EndTrick,Score,Caller,A,Tricks,A,1,B,4,C,1
+EndRound,Trump,D,Caller,Brian,Score A,5,Score B,5
+Card Played,Jack|C,1
+Card Played,9|C,2
+Card Played,Jack|S,3
+Card Played,10|C,4
+EndTrick,1,Jack|S,10|C,9|C,Jack|C,Winner,Sandy
+Card Played,Ace|D,1
+Card Played,Queen|D,2
+Card Played,King|D,3
+Card Played,9|D,4
+EndTrick,2,Ace|D,King|D,9|D,Queen|D,Winner,Sandy
+Card Played,10|D,1
+Card Played,Ace|S,2
+Card Played,9|S,3
+Card Played,Ace|H,4
+EndTrick,3,Ace|S,10|D,Ace|H,9|S,Winner,Sandy
+Card Played,Queen|S,1
+Card Played,Queen|C,2
+Card Played,10|H,3
+Card Played,Queen|H,4
+EndTrick,4,10|H,Queen|H,Queen|C,Queen|S,Winner,Alex
+Card Played,Jack|H,1
+Card Played,King|C,2
+Card Played,9|H,3
+Card Played,Jack|D,4
+EndTrick,5,King|C,Jack|D,9|H,Jack|H,Winner,Katrina
+EndTrick,Score,Caller,A,Tricks,A,1,B,4,C,1
+EndRound,Trump,C,Caller,Brian,Score A,5,Score B,7
+Card Played,Ace|S,1
+Card Played,King|S,2
+Card Played,Jack|C,3
+Card Played,10|S,4
+EndTrick,1,Ace|S,King|S,10|S,Jack|C,Winner,Brian
+Card Played,10|D,1
+Card Played,9|D,2
+Card Played,Jack|D,3
+Card Played,King|D,4
+EndTrick,2,10|D,King|D,9|D,Jack|D,Winner,Katrina
+Card Played,Queen|C,1
+Card Played,Ace|C,2
+Card Played,Queen|D,3
+Card Played,10|C,4
+EndTrick,3,10|C,Queen|C,Ace|C,Queen|D,Winner,Brian
+Card Played,10|H,1
+Card Played,Ace|H,2
+Card Played,Queen|H,3
+Card Played,King|H,4
+EndTrick,4,10|H,Queen|H,Ace|H,King|H,Winner,Sandy
+Card Played,Jack|H,1
+Card Played,9|S,2
+Card Played,9|H,3
+Card Played,Jack|S,4
+EndTrick,5,9|S,Jack|S,9|H,Jack|H,Winner,Brian
+EndTrick,Score,Caller,A,Tricks,A,3,B,2,C,3
+EndRound,Trump,S,Caller,Brian,Score A,6,Score B,7
+Card Played,Queen|S,1
+Card Played,9|S,2
+Card Played,Queen|H,3
+Card Played,King|S,4
+EndTrick,1,Queen|H,9|S,King|S,Queen|S,Winner,Sandy
+Card Played,King|H,1
+Card Played,Ace|H,2
+Card Played,Queen|D,3
+Card Played,9|H,4
+EndTrick,2,Ace|H,9|H,King|H,Queen|D,Winner,Alex
+Card Played,Ace|D,1
+Card Played,Jack|H,2
+Card Played,9|D,3
+Card Played,King|D,4
+EndTrick,3,Ace|D,9|D,King|D,Jack|H,Winner,Katrina
+Card Played,Ace|C,1
+Card Played,9|C,2
+Card Played,King|C,3
+Card Played,Ace|D,4
+EndTrick,4,King|C,Ace|D,Ace|C,9|C,Winner,Katrina
+Card Played,Jack|S,1
+Card Played,Jack|D,2
+Card Played,10|H,3
+Card Played,10|C,4
+EndTrick,5,10|H,Jack|D,Jack|S,10|C,Winner,Brian
+EndTrick,Score,Caller,A,Tricks,A,2,B,3,C,2
+EndRound,Trump,H,Caller,Brian,Score A,6,Score B,9
+Card Played,King|S,1
+Card Played,9|S,2
+Card Played,10|S,3
+Card Played,Ace|S,4
+EndTrick,1,Ace|S,9|S,King|S,10|S,Winner,Katrina
+Card Played,King|C,1
+Card Played,Ace|D,2
+Card Played,Queen|C,3
+Card Played,Ace|C,4
+EndTrick,2,King|C,Ace|D,Queen|C,Ace|C,Winner,Alex
+Card Played,Queen|H,1
+Card Played,King|H,2
+Card Played,Ace|H,3
+Card Played,Jack|D,4
+EndTrick,3,Queen|H,Ace|H,King|H,Jack|D,Winner,Sandy
+Card Played,Jack|S,1
+Card Played,9|D,2
+Card Played,10|H,3
+Card Played,King|D,4
+EndTrick,4,10|H,Jack|S,9|D,King|D,Winner,Katrina
+Card Played,10|C,1
+Card Played,Jack|C,2
+Card Played,9|H,3
+Card Played,10|D,4
+EndTrick,5,10|D,10|C,9|H,Jack|C,Winner,Sandy
+EndTrick,Score,Caller,B,Tricks,A,1,B,4,C,4
+EndRound,Trump,H,Caller,Sandy,Score A,6,Score B,10
+EndGame,Winners,Team B,Katrina,Sandy
+EndGame,Score,6,10
+Card Played,10|D,1
+Card Played,Ace|D,2
+Card Played,Queen|D,3
+Card Played,Ace|C,4
